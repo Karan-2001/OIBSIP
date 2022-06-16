@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyStopWatch</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="background">background</string>
+    <string name="logo">logo</string>
+    <string name="_01">00</string>
+    <string name="todo">TODO</string>
+    <string name="colon">:</string>
+    <string name="_50">00</string>
+    <string name="h">H </string>
+    <string name="m">M</string>
+    <string name="s">S</string>
+    <string name="zero">0</string>
+    <string name="timer">00:00:00</string>
+    <string name="_00">00</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="hold">Hold</string>
+    <string name="stopwatch1">StopWatch</string>
+</resources>
