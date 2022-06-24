@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play">Play</string>
+    <string name="quiz">quiz</string>
+    <string name="play_quiz">Play Quiz</string>
+    <string name="questions">QUESTIONS!</string>
+    <string name="background">background</string>
+    <string name="what_is_the_full_form_of_html">What is the Full form of HTML?</string>
+    <string name="option1">option1</string>
+    <string name="option2">option2</string>
+    <string name="option3">option3</string>
+    <string name="option4">option4</string>
+    <string name="submit">submit</string>
+    <string name="score">score</string>
+    <string name="correctanswer">correctanswer</string>
+    <string name="your_score">Your Score</string>
+    <string name="menu">MENU</string>
+    <string name="scoreboard">scoreboard</string>
+    <string name="answers">answers</string>
+    <string name="Answers">Answers</string>
+    <string name="qt" />
+    <string name="_100">100</string>
+</resources>

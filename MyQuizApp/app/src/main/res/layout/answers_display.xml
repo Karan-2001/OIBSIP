@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="365dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:padding="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.451">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="@string/what_is_the_full_form_of_html"
+                android:textColor="#020000"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.794" />
+
+            <Button
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:backgroundTint="#00BCD4"
+                tools:text="answer" />
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
+
+
+<!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+<!--    <item name="nav_graph" type="id">nav_graph</item>-->
+<!--    <item name="fragmentMainScreen3" type="id">fragmentMainScreen3</item>-->
+<!--    <item name="fragmentScoreBoard3" type="id">fragmentScoreBoard3</item>-->
+<!--    <item name="action_fragmentScoreBoard3_to_fragmentAnswers3" type="id">-->
+<!--        action_fragmentScoreBoard3_to_fragmentAnswers3-->
+<!--    </item>-->
+<!--    <item name="fragmentAnswers3" type="id">fragmentAnswers</item>-->
+<!--    <item name="action_fragmentScoreBoard3_to_fragmentMainScreen3" type="id">-->
+<!--        action_fragmentScoreBoard3_to_fragmentMainScreen3-->
+<!--    </item>-->
+<!--    <item name="action_fragmentAnswers3_to_fragmentMainScreen3" type="id">-->
+<!--        action_fragmentAnswers3_to_fragmentMainScreen3-->
+<!--    </item>-->
+<!--    <item name="action_fragmentMainScreen3_to_fragmentQuiz3" type="id">-->
+<!--        action_fragmentMainScreen3_to_fragmentQuiz3-->
+<!--    </item>-->
+<!--    <item name="fragmentQuiz3" type="id">fragmentQuiz</item>-->
+<!--    <item name="action_fragmentQuiz3_to_fragmentScoreBoard3" type="id">-->
+<!--        action_fragmentQuiz_to_fragmentScoreBoard-->
+<!--    </item>-->
+<!--</resources>-->

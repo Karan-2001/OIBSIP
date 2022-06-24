@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ImageStyle"></style>
+
+    <style name="BigTextStyle">BigTextStyle</style>
+
+    <style name="ButtonStyle">ButtonStyle</style>
+
+    <style name="ScoreStyle">sourcestyle</style>
+
+</resources>

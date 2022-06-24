@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+
+    tools:context=".FragmentAnswers">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="409dp"
+        android:layout_height="236dp"
+        android:layout_marginRight="100dp"
+        android:contentDescription="@string/background"
+        android:src="@drawable/answers"
+        app:layout_constraintBottom_toBottomOf="@+id/recycler_view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view2"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:clipToPadding="false"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+       android:layout_marginTop="236dp" />
+
+    <TextView
+        android:id="@+id/answers"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:fontFamily="@font/spicy_rice"
+        android:text="@string/Answers"
+        android:textAlignment="center"
+        android:textColor="#0B0101"
+        android:textColorHighlight="#323131"
+        android:textSize="70sp"
+      android:layout_marginTop="55dp"/>
+
+    <Button
+        android:id="@+id/mainmenu"
+        style="@style/ButtonStyle"
+        android:layout_width="160dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:fontFamily="@font/spicy_rice"
+        android:text="@string/menu"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FFC107"
+        app:iconTint="#000000"
+         />
+</FrameLayout>
