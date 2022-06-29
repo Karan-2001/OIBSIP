@@ -8,6 +8,7 @@ Task apps are :
   3. Stopwatch
 
 1. CALCULATOR
+
     -> This is simple calculator app. Where user as to enter numer-A and number-B .
     
     -> There are 6 basic arithematic operations that are :-  + (add),  - (subtract),  * (Multiplications),  / (divide),  % (Modulo),  pow(Power).
@@ -17,6 +18,7 @@ Task apps are :
     -> If the user forgot to enter any number in the input box and click on any operations button then error will we shown in input box.
 
 2. QUIZ APP
+
     -> It is a simple quiz app with multiple fregments(screens).
     
     -> First screen is like a splash screen having the name and a play button, After clicking on it a new fragment will open where user have
@@ -28,9 +30,13 @@ Task apps are :
     -> In scoreboard screen there is an option of sharing user score to other apps and a button to navigate to main screen.
     
 3. STOPWATCH
+
     -> A Simple stopwatch having only one screen having 3 buttons.
+    
     -> START to start the stopwatch.
+    
     -> HOLD to stop the stopwatch .
+    
     -> RESET to reset the stopwatch.
     
 All these APPs are build in Android Studio using a Kotlin language.
